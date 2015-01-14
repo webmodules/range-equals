@@ -1,0 +1,20 @@
+{
+  "name": "YOUR-WEBMODULE-NAME",
+  "description": "YOUR-WEBMODULE-DESCRIPTION",
+  "tags": ["webmodule", "browser", "YOUR-TAGS"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webmodules/YOUR-PROJECT-NAME.git"
+  },
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {
+    "core-js": "0.4.4"
+  },
+  "devDependencies": {
+    "6to5": "2.12.0"
+  },
+  "scripts": {
+    "prepublish": "make build"
+  }
+}
