@@ -8,7 +8,7 @@
   },
   "version": "1.0.0",
   "dependencies": {
-    "core-js": "0.4.4"
+    "6to5-runtime": "3.3.7"
   },
   "devDependencies": {
     "6to5": "3.3.7"

@@ -20,8 +20,11 @@ install: node_modules
 clean: $(COMPILED_FILES)
 	rm $(COMPILED_FILES)
 
+distclean: clean
+	rm -r node_modules
+
 node_modules:
 	npm install
 
 %.js: %.es6
-	$(SIX_TO_FIVE) -i coreAliasing $< --out-file $@
+	$(SIX_TO_FIVE) -i selfContained -e $< --out-file $@
