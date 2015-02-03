@@ -1,12 +1,11 @@
 {
-  "name": "YOUR-WEBMODULE-NAME",
-  "description": "YOUR-WEBMODULE-DESCRIPTION",
-  "tags": ["webmodule", "browser", "YOUR-TAGS"],
+  "name": "range-equals",
+  "description": "compare two dom ranges for equality",
+  "tags": ["webmodule", "browser", "dom", "range", "compare", "equal", "equals", "equality"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/webmodules/YOUR-PROJECT-NAME.git"
+    "url": "https://github.com/webmodules/range-equals.git"
   },
-  "private": true,
   "version": "1.0.0",
   "dependencies": {
     "core-js": "0.4.4"
