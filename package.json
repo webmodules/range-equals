@@ -11,7 +11,7 @@
     "core-js": "0.4.4"
   },
   "devDependencies": {
-    "6to5": "2.12.0"
+    "6to5": "3.3.7"
   },
   "scripts": {
     "prepublish": "make build"
