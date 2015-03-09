@@ -15,7 +15,7 @@
     "type": "git",
     "url": "https://github.com/webmodules/range-equals.git"
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "dependencies": {
     "babel-runtime": "4.7.4"
   },
